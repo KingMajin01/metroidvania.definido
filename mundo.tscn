@@ -46,6 +46,6 @@ position = Vector2(24, 113)
 position = Vector2(499, 180)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1316880808]
-position = Vector2(23, 52)
+position = Vector2(295, 22.000004)
 scale = Vector2(0.6796867, 0.6210937)
 texture = ExtResource("4_otwa2")

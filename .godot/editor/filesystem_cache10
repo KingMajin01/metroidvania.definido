@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784785915
+::res://::1784787155
 espinhos duplos.png::CompressedTexture2D::441982875989623309::1784704074::1784704075::1::::<><><>0<>0<>915a37f08bc7c168bc9113676a5d6351<>res://.godot/imported/espinhos duplos.png-3e79aa5cabee66515cfc9fde983ce77b.ctex::
 icon.svg::CompressedTexture2D::4304889782998865542::1784685733::1784685736::1::::<><><>0<>0<>88e7fc19f221cdad4e8e6766cdc72d29<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 inimigo.gd::GDScript::5216885078525727991::1784692608::0::1::::<>Area2D<><>0<>0<><>::
@@ -14,4 +14,3 @@ menu_inicial.tscn::PackedScene::7631172685350991151::1784761972::0::1::::<><><>0
 mundo.tscn::PackedScene::8137763432450420864::1784762474::0::1::::<><><>0<>0<><>::uid://da5fne4ol0kxs::::res://jogador.tscn<>uid://b437ntck2ye5::::res://inimigo.tscn<>uid://b1syfai62tusj::::res://inimigo_atirador.tscn<>uid://gkdnm06jxxjx::::res://espinhos duplos.png
 projetil_inimigo.gd::GDScript::3681601962231794837::1784695556::0::1::::<>Area2D<><>0<>0<><>::
 projetil_inimigo.tscn::PackedScene::1757147366547689711::1784695571::0::1::::<><><>0<>0<><>::uid://bspnpgcpnbu10::::res://projetil_inimigo.gd
-::res://Metroidvania/::1784689930
