@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://da5fne4ol0kxs"]
+
+[ext_resource type="Script" uid="uid://byqnpo6q06ual" path="res://jogador.gd" id="1_yuxfx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ckb4l"]
+size = Vector2(31, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0i88t"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3si4x"]
+size = Vector2(32, 32)
+
+[node name="Jogador" type="CharacterBody2D" unique_id=801539704]
+script = ExtResource("1_yuxfx")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2113762205]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1235550195]
+shape = SubResource("RectangleShape2D_ckb4l")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2040079282]
+custom_minimum_size = Vector2(32, 32)
+custom_maximum_size = Vector2(32, 32)
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1719874344]
+
+[node name="AtaqueArea" type="Area2D" parent="." unique_id=1688911168]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AtaqueArea" unique_id=916315154]
+position = Vector2(31, 6)
+shape = SubResource("RectangleShape2D_0i88t")
+disabled = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1586710845]
+
+[node name="BarraVida" type="ProgressBar" parent="CanvasLayer" unique_id=1894568890]
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 271.0
+offset_bottom = 31.0
+value = 100.0
+
+[node name="BarraMana" type="ProgressBar" parent="CanvasLayer" unique_id=135288135]
+offset_top = 33.0
+offset_right = 171.0
+offset_bottom = 60.0
+value = 100.0
+
+[node name="DanoRecebidoArea" type="Area2D" parent="." unique_id=300053408]
+
+[node name="DanoRecebidoArea" type="CollisionShape2D" parent="DanoRecebidoArea" unique_id=1944734482]
+shape = SubResource("RectangleShape2D_3si4x")
+
+[node name="Timer" type="Timer" parent="." unique_id=65516850]
+wait_time = 0.2
+one_shot = true

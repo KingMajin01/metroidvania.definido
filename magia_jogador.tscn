@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://0j0a7hstj5la"]
+
+[sub_resource type="GDScript" id="GDScript_gngk3"]
+script/source = "extends Area2D
+
+@export var velocidade = 400
+@export var dano = 2
+var direcao = Vector2.RIGHT
+
+func _ready():
+	body_entered.connect(_on_body_entered)
+	area_entered.connect(_on_area_entered)
+	
+	# Destrói a magia após 3 segundos para não pesar o jogo
+	await get_tree().create_timer(3.0).timeout
+	queue_free()
+
+func _physics_process(delta):
+	position += direcao * velocidade * delta
+
+func _on_body_entered(body):
+	# Se acertar parede ou chão
+	if not body.is_in_group(\"jogador\"):
+		queue_free()
+
+func _on_area_entered(area):
+	# Se acertar a área de colisão do inimigo
+	var inimigo = area.get_parent()
+	if inimigo != null and inimigo.has_method(\"tomar_dano\"):
+		inimigo.tomar_dano(dano)
+		print(\"💥 A magia acertou o inimigo!\")
+		queue_free()
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0i88t"]
+size = Vector2(10, 10)
+
+[node name="MagiaJogador" type="Area2D" unique_id=1911054116]
+script = SubResource("GDScript_gngk3")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1572121432]
+offset_left = -5.0
+offset_top = -5.0
+offset_right = 5.0
+offset_bottom = 5.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=153839215]
+shape = SubResource("RectangleShape2D_0i88t")

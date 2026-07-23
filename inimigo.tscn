@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://b437ntck2ye5"]
+
+[ext_resource type="Script" uid="uid://cgldlnkxgufd4" path="res://inimigo.gd" id="1_030df"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ckb4l"]
+size = Vector2(41, 40)
+
+[node name="Inimigo" type="Area2D" unique_id=1721916037]
+script = ExtResource("1_030df")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1373556094]
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+color = Color(0.8423433, 0, 0.20198134, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=522982592]
+shape = SubResource("RectangleShape2D_ckb4l")

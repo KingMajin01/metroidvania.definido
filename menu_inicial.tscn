@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://dgyukf4y811x0"]
+
+[ext_resource type="Script" uid="uid://bp2emp43rapi1" path="res://menu_inicial.gd" id="1_u4fxu"]
+
+[node name="MenuInicial" type="Control" unique_id=1084257542]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_u4fxu")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1266244565]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.05848854, 0.07021526, 0.26913583, 1)
+
+[node name="Titulo" type="Label" parent="." unique_id=419834106]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 0.018000001
+offset_left = 792.0
+offset_top = 221.0
+offset_right = 1199.0
+offset_bottom = 382.336
+text = "ECOS DA HISTORIA"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextoIniciar" type="Label" parent="." unique_id=1962062910]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 854.0
+offset_top = 659.0
+offset_right = 1141.0
+offset_bottom = 759.0
+text = "pressione qualquer tecla pra iniciar"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3

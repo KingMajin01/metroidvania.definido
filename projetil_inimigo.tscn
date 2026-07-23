@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://0bf7wh0idcwd"]
+
+[ext_resource type="Script" uid="uid://bspnpgcpnbu10" path="res://projetil_inimigo.gd" id="1_gqbvf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0i88t"]
+size = Vector2(10, 10)
+
+[node name="ProjetilInimigo" type="Area2D" unique_id=1289279292]
+script = ExtResource("1_gqbvf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1935419046]
+shape = SubResource("RectangleShape2D_0i88t")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=776306957]
+offset_left = -5.0
+offset_top = -5.0
+offset_right = 5.0
+offset_bottom = 5.0
+color = Color(0.70439106, 0.33435142, 0.053579755, 1)

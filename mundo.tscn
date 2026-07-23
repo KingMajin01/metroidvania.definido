@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://dn681lwmhw1ds"]
+
+[ext_resource type="PackedScene" uid="uid://da5fne4ol0kxs" path="res://jogador.tscn" id="1_6ba58"]
+[ext_resource type="PackedScene" uid="uid://b437ntck2ye5" path="res://inimigo.tscn" id="2_lgngo"]
+[ext_resource type="PackedScene" uid="uid://b1syfai62tusj" path="res://inimigo_atirador.tscn" id="3_fw4w5"]
+[ext_resource type="Texture2D" uid="uid://gkdnm06jxxjx" path="res://espinhos duplos.png" id="4_otwa2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ckb4l"]
+size = Vector2(821, 67)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0i88t"]
+size = Vector2(338, 29)
+
+[node name="mundo" type="Node2D" unique_id=1268052274]
+
+[node name="Chao" type="StaticBody2D" parent="." unique_id=854043277]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Chao" unique_id=752699548]
+position = Vector2(412, 245)
+shape = SubResource("RectangleShape2D_ckb4l")
+
+[node name="ColorRect" type="ColorRect" parent="Chao" unique_id=2038719266]
+offset_top = 208.0
+offset_right = 823.0
+offset_bottom = 281.0
+color = Color(0, 0.3360394, 0.18158257, 1)
+
+[node name="Inimigo" parent="." unique_id=1721916037 instance=ExtResource("2_lgngo")]
+position = Vector2(633, 183)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=93125657]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=995419032]
+position = Vector2(171, 153)
+shape = SubResource("RectangleShape2D_0i88t")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D" unique_id=781577266]
+offset_top = 136.0
+offset_right = 340.0
+offset_bottom = 168.0
+
+[node name="InimigoAtirador" parent="." unique_id=1771677566 instance=ExtResource("3_fw4w5")]
+position = Vector2(24, 113)
+
+[node name="Jogador" parent="." unique_id=801539704 instance=ExtResource("1_6ba58")]
+position = Vector2(499, 180)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1316880808]
+position = Vector2(23, 52)
+scale = Vector2(0.6796867, 0.6210937)
+texture = ExtResource("4_otwa2")

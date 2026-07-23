@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://b1syfai62tusj"]
+
+[ext_resource type="Script" uid="uid://8y1rvkitlumk" path="res://inimigo_atirador.gd" id="1_76yqa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0i88t"]
+size = Vector2(40, 39)
+
+[node name="InimigoAtirador" type="Area2D" unique_id=1771677566]
+script = ExtResource("1_76yqa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=151636452]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_0i88t")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2089956021]
+offset_left = -20.0
+offset_top = -19.0
+offset_right = 20.0
+offset_bottom = 21.0
+color = Color(0.6345357, 0.001896159, 0.82904387, 1)
+
+[node name="TimerTiro" type="Timer" parent="." unique_id=1433368793]
+wait_time = 1.5
+autostart = true

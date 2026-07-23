@@ -1,0 +1,17 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1784785915
+espinhos duplos.png::CompressedTexture2D::441982875989623309::1784704074::1784704075::1::::<><><>0<>0<>915a37f08bc7c168bc9113676a5d6351<>res://.godot/imported/espinhos duplos.png-3e79aa5cabee66515cfc9fde983ce77b.ctex::
+icon.svg::CompressedTexture2D::4304889782998865542::1784685733::1784685736::1::::<><><>0<>0<>88e7fc19f221cdad4e8e6766cdc72d29<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+inimigo.gd::GDScript::5216885078525727991::1784692608::0::1::::<>Area2D<><>0<>0<><>::
+inimigo.tscn::PackedScene::131813731968342654::1784688498::0::1::::<><><>0<>0<><>::uid://cgldlnkxgufd4::::res://inimigo.gd
+inimigo_atirador.gd::GDScript::2367387025288541434::1784695571::0::1::::<>Area2D<><>0<>0<><>::
+inimigo_atirador.tscn::PackedScene::4249955568454723685::1784695336::0::1::::<><><>0<>0<><>::uid://8y1rvkitlumk::::res://inimigo_atirador.gd
+jogador.gd::GDScript::4104799866862827811::1784783787::0::1::::<>CharacterBody2D<><>0<>0<><>::
+jogador.tscn::PackedScene::7221520439530211648::1784784035::0::1::::<><><>0<>0<><>::uid://byqnpo6q06ual::::res://jogador.gd
+magia_jogador.tscn::PackedScene::1774820107960961510::1784708108::0::1::::<><><>0<>0<><>::
+menu_inicial.gd::GDScript::3495256669065632822::1784701480::0::1::::<>Control<><>0<>0<><>::
+menu_inicial.tscn::PackedScene::7631172685350991151::1784761972::0::1::::<><><>0<>0<><>::uid://bp2emp43rapi1::::res://menu_inicial.gd
+mundo.tscn::PackedScene::8137763432450420864::1784762474::0::1::::<><><>0<>0<><>::uid://da5fne4ol0kxs::::res://jogador.tscn<>uid://b437ntck2ye5::::res://inimigo.tscn<>uid://b1syfai62tusj::::res://inimigo_atirador.tscn<>uid://gkdnm06jxxjx::::res://espinhos duplos.png
+projetil_inimigo.gd::GDScript::3681601962231794837::1784695556::0::1::::<>Area2D<><>0<>0<><>::
+projetil_inimigo.tscn::PackedScene::1757147366547689711::1784695571::0::1::::<><><>0<>0<><>::uid://bspnpgcpnbu10::::res://projetil_inimigo.gd
+::res://Metroidvania/::1784689930
