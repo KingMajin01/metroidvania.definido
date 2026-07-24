@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784787155
+::res://::1784852927
 espinhos duplos.png::CompressedTexture2D::441982875989623309::1784704074::1784704075::1::::<><><>0<>0<>915a37f08bc7c168bc9113676a5d6351<>res://.godot/imported/espinhos duplos.png-3e79aa5cabee66515cfc9fde983ce77b.ctex::
 icon.svg::CompressedTexture2D::4304889782998865542::1784685733::1784685736::1::::<><><>0<>0<>88e7fc19f221cdad4e8e6766cdc72d29<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 inimigo.gd::GDScript::5216885078525727991::1784692608::0::1::::<>Area2D<><>0<>0<><>::
@@ -7,10 +7,18 @@ inimigo.tscn::PackedScene::131813731968342654::1784688498::0::1::::<><><>0<>0<><
 inimigo_atirador.gd::GDScript::2367387025288541434::1784695571::0::1::::<>Area2D<><>0<>0<><>::
 inimigo_atirador.tscn::PackedScene::4249955568454723685::1784695336::0::1::::<><><>0<>0<><>::uid://8y1rvkitlumk::::res://inimigo_atirador.gd
 jogador.gd::GDScript::4104799866862827811::1784783787::0::1::::<>CharacterBody2D<><>0<>0<><>::
-jogador.tscn::PackedScene::7221520439530211648::1784784035::0::1::::<><><>0<>0<><>::uid://byqnpo6q06ual::::res://jogador.gd
+jogador.tscn::PackedScene::7221520439530211648::1784852549::0::1::::<><><>0<>0<><>::uid://byqnpo6q06ual::::res://jogador.gd
 magia_jogador.tscn::PackedScene::1774820107960961510::1784708108::0::1::::<><><>0<>0<><>::
 menu_inicial.gd::GDScript::3495256669065632822::1784701480::0::1::::<>Control<><>0<>0<><>::
-menu_inicial.tscn::PackedScene::7631172685350991151::1784761972::0::1::::<><><>0<>0<><>::uid://bp2emp43rapi1::::res://menu_inicial.gd
-mundo.tscn::PackedScene::8137763432450420864::1784762474::0::1::::<><><>0<>0<><>::uid://da5fne4ol0kxs::::res://jogador.tscn<>uid://b437ntck2ye5::::res://inimigo.tscn<>uid://b1syfai62tusj::::res://inimigo_atirador.tscn<>uid://gkdnm06jxxjx::::res://espinhos duplos.png
+menu_inicial.tscn::PackedScene::7631172685350991151::1784851442::0::1::::<><><>0<>0<><>::uid://bp2emp43rapi1::::res://menu_inicial.gd<>uid://u2ga4lgjrpdb::::res://projeto metroidvania(tela de inicio).png
+mundo.tscn::PackedScene::8137763432450420864::1784852682::0::1::::<><><>0<>0<><>::uid://da5fne4ol0kxs::::res://jogador.tscn<>uid://b8ybh8hdpua1h::::res://projeto metroidvania(chão) FUNDO TRANSPARENTE.png<>uid://b437ntck2ye5::::res://inimigo.tscn<>uid://chvh8tlxigx5v::::res://projeto metroidvania(plataforma grama).png<>uid://b1syfai62tusj::::res://inimigo_atirador.tscn<>uid://gkdnm06jxxjx::::res://espinhos duplos.png
+pedra comun.png::CompressedTexture2D::535713533331907497::1784852924::1784852925::1::::<><><>0<>0<>1dc2a5db8a40113ce300ba8585b391a5<>res://.godot/imported/pedra comun.png-4c5073d846d6d19e746b102088e0b1cd.ctex::
+plataforma 1.png::CompressedTexture2D::1410477371526712957::1784852927::1784852927::1::::<><><>0<>0<>6e71132ce06f77c889abe7bb72686ca0<>res://.godot/imported/plataforma 1.png-cfc028559f2354a9a83afe9d9d74c74f.ctex::
 projetil_inimigo.gd::GDScript::3681601962231794837::1784695556::0::1::::<>Area2D<><>0<>0<><>::
 projetil_inimigo.tscn::PackedScene::1757147366547689711::1784695571::0::1::::<><><>0<>0<><>::uid://bspnpgcpnbu10::::res://projetil_inimigo.gd
+projeto metroidvania(chão) FUNDO TRANSPARENTE.png::CompressedTexture2D::4752272551637029035::1784850712::1784850712::1::::<><><>0<>0<>a0fc22329ddc9d3eb9f4c83bc4320bae<>res://.godot/imported/projeto metroidvania(chão) FUNDO TRANSPARENTE.png-2eaffe156d6a3a2787f0170d0140e8f3.ctex::
+projeto metroidvania(grama baixa).png::CompressedTexture2D::2611098913404349395::1784851056::1784851057::1::::<><><>0<>0<>4a35bc82c7da617b008c606037c24538<>res://.godot/imported/projeto metroidvania(grama baixa).png-94089a3f34ba08669e669c4b3b2ddcba.ctex::
+projeto metroidvania(grama média).png::CompressedTexture2D::4866848226536811335::1784851072::1784851073::1::::<><><>0<>0<>7753233334d5e8bea4f39eefdefa62bd<>res://.godot/imported/projeto metroidvania(grama média).png-891321d12bd4286e1e7ed0aeac35384c.ctex::
+projeto metroidvania(pedra).png::CompressedTexture2D::5613332976464945181::1784851078::1784851079::1::::<><><>0<>0<>35773022dc4b9dd0b6e4e993fa952f71<>res://.godot/imported/projeto metroidvania(pedra).png-6ddb12df139238650f69bcd16b0d2ee5.ctex::
+projeto metroidvania(plataforma grama).png::CompressedTexture2D::5308000171828381117::1784851083::1784851083::1::::<><><>0<>0<>dad877c674083518f47dbf9127b1282a<>res://.godot/imported/projeto metroidvania(plataforma grama).png-736785ee1521865df9a80c0cf3e45339.ctex::
+projeto metroidvania(tela de inicio).png::CompressedTexture2D::1459880914532188347::1784851093::1784851094::1::::<><><>0<>0<>8da3cb5d4baaa1e1c36fdca157f07105<>res://.godot/imported/projeto metroidvania(tela de inicio).png-e8c2a2ecc8571e34c39447bcff4fe6b0.ctex::
